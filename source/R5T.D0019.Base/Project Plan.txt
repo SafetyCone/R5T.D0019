@@ -1,0 +1,4 @@
+R5T.D0019.Base - A base service definitionlibrary for the IVisualStudioProjectFileTransformer service. Async, R5T.T0002.IVisualStudioProjectFile-based.
+
+Goals
+
