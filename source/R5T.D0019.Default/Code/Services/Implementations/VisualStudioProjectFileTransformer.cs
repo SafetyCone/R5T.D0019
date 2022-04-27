@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
-using R5T.T0002;
+using R5T.T0002;using R5T.T0064;
 
 
 namespace R5T.D0019.Default
-{
-    public class VisualStudioProjectFileTransformer : IVisualStudioProjectFileTransformer
+{[ServiceImplementationMarker]
+    public class VisualStudioProjectFileTransformer : IVisualStudioProjectFileTransformer,IServiceImplementation
     {
         public Task CopySourceToDestinationAsync(IVisualStudioProjectFile source, IVisualStudioProjectFile destination)
         {
